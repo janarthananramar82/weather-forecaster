@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+.app-container {
+  padding: 40px;
+  .container-card {
+    min-height: 700px;
+  }
+  .card {
+    margin: 25px;
+    min-height: 700px;
+  }
+  h1 {
+    background-color: #0d6efd;
+    margin: 25px;
+  }
+  .location-section {
+    margin: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .badge {
+    margin: 7px 0px 7px 7px;
+  }
+  .bg-secondary {
+    background-color: #72a1e7 !important;
+  }
+  .form-control {
+    border-color: #0d6efd;
+  }
+  .card {
+    border-color: #0d6efd;
+  }
+}
